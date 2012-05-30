@@ -39,6 +39,12 @@
 
 #define FILE_IN_ZIP_MAX_NAME_LENGTH (256)
 
+@interface ZipFile () {
+	zipFile _zipFile;
+	unzFile _unzFile;
+}
+@end
+
 @implementation ZipFile
 
 

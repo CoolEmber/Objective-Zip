@@ -36,6 +36,10 @@
 
 #include "zip.h"
 
+@interface ZipWriteStream () {
+	zipFile _zipFile;
+}
+@end
 
 @implementation ZipWriteStream
 

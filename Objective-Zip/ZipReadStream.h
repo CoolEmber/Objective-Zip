@@ -38,9 +38,6 @@
 
 @interface ZipReadStream : NSObject {
 	NSString *_fileNameInZip;
-	
-@private
-	unzFile _unzFile;
 }
 
 - (id) initWithUnzFileStruct:(unzFile)unzFile fileNameInZip:(NSString *)fileNameInZip;

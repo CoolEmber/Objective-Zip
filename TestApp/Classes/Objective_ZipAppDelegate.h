@@ -35,10 +35,7 @@
 
 @class Objective_ZipViewController;
 
-@interface Objective_ZipAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    Objective_ZipViewController *viewController;
-}
+@interface Objective_ZipAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic) IBOutlet UIWindow *window;
 @property (nonatomic) IBOutlet Objective_ZipViewController *viewController;

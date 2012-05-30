@@ -38,9 +38,6 @@
 
 @interface ZipWriteStream : NSObject {
 	NSString *_fileNameInZip;
-
-@private
-	zipFile _zipFile;
 }
 
 - (id) initWithZipFileStruct:(zipFile)zipFile fileNameInZip:(NSString *)fileNameInZip;

@@ -35,9 +35,6 @@
 
 @interface Objective_ZipViewController : UIViewController {
 	IBOutlet UITextView *_textView;
-
-@private
-	NSThread *_testThread;
 }
 
 - (IBAction) zipUnzip;

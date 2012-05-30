@@ -38,6 +38,10 @@
 #import "ZipWriteStream.h"
 #import "ZipReadStream.h"
 
+@interface Objective_ZipViewController () {
+	NSThread *_testThread;
+}
+@end
 
 @implementation Objective_ZipViewController
 

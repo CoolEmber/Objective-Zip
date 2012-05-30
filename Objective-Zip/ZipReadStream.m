@@ -36,6 +36,10 @@
 
 #include "unzip.h"
 
+@interface ZipReadStream () {
+	unzFile _unzFile;
+}
+@end
 
 @implementation ZipReadStream
 
