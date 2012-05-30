@@ -1,4 +1,4 @@
-This is modified version of [objective-zip libarary](https://github.com/AgileBits/objective-zip) by [AgileBits](http://agilebits.com/), which again is based on the work of [Flying Dolphin Studio](http://www.flyingdolphinstudio.com).
+This is ARC version of [objective-zip libarary](https://github.com/AgileBits/objective-zip) by [AgileBits](http://agilebits.com/), which again is based on the work of [Flying Dolphin Studio](http://www.flyingdolphinstudio.com).
 
 Changes:
 
