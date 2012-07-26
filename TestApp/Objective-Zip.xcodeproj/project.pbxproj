@@ -64,6 +64,7 @@
 		B3198057135D179500741E77 /* ZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipReadStream.m; sourceTree = "<group>"; };
 		B3198058135D179500741E77 /* ZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipWriteStream.h; sourceTree = "<group>"; };
 		B3198059135D179500741E77 /* ZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipWriteStream.m; sourceTree = "<group>"; };
+		DA67BD5F15C134C5003C80C3 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +150,7 @@
 		B3198045135D179500741E77 /* MiniZip */ = {
 			isa = PBXGroup;
 			children = (
+				DA67BD5F15C134C5003C80C3 /* crypt.h */,
 				B3198047135D179500741E77 /* ioapi.c */,
 				B3198048135D179500741E77 /* ioapi.h */,
 				B3198049135D179500741E77 /* mztools.c */,
